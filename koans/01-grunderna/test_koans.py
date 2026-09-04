@@ -7,12 +7,12 @@ from sentinel import ____
 
 def test_type_of_integer_is_int():
     """Vilken inbyggd typ representerar heltal i Python?"""
-    assert type(42) == int
+    assert type(42) == ____
 
 
 def test_integers_and_floats_have_different_types():
     """42 och 42.0 har samma värde. Är de av samma typ?"""
-    assert (type(42) == type(42.0)) == False
+    assert (type(42) == type(42.0)) == ____
 
 
 def test_cpython_caches_small_integers_so_they_share_identity():
@@ -20,7 +20,7 @@ def test_cpython_caches_small_integers_so_they_share_identity():
     Om a och b båda tilldelas 42, pekar de på exakt samma objekt?"""
     a = 42
     b = 42
-    assert (a is b) == False
+    assert (a is b) == ____
 
 
 # === Tilldelning och referenser ===
